@@ -4,10 +4,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Appheader from "./components/header";
 import Apphero from "./components/hero";
 
+document.body.style.backgroundColor = "#f6f4e8";
+
 export default function App() {
   return (
     <div id="App">
-      <p>hej</p>
       <header id="header">
         <Appheader />
       </header>
