@@ -11,9 +11,10 @@ export default function App() {
     <div id="App">
       <header id="header">
         <Appheader />
+        <Apphero />
       </header>
       <main>
-        <Apphero />
+        <p>hej</p>
       </main>
     </div>
   );
