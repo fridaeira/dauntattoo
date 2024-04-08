@@ -6,7 +6,9 @@ import Col from "react-bootstrap/Col";
 export default function Appstart() {
   return (
     <Container>
-      <h1>VÄLKOMMEN TILL DAUN TATTOO</h1>
+      <h1 style={{ marginTop: "30px", marginBottom: "30px" }}>
+        VÄLKOMMEN TILL DAUN TATTOO
+      </h1>
       <Row>
         <Col>
           <img src="philip1.jpg" alt="Bild på Philip Daun" />
@@ -35,7 +37,17 @@ export default function Appstart() {
           </p>
         </Col>
       </Row>
-      <h2>DON´T BE SAD GO GET A TATTOO</h2>
+      <h2
+        className="font-link2"
+        style={{
+          color: "#B70A16",
+          textAlign: "center",
+          fontSize: "40px",
+          marginTop: "30px",
+        }}
+      >
+        "DON´T BE SAD GO GET A TATTOO"
+      </h2>
     </Container>
   );
 }

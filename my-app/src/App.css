@@ -12,6 +12,10 @@ html {
   font-family: 'Protest Strike', regular;
 }
 
+.font-link2 {
+  font-family: 'Modak', regular;
+}
+
 
 * {
   max-height: 1000000px;
@@ -36,12 +40,9 @@ img {
 }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
- 
+h2
+ {
+ font-family: 'Protest Strike';
   font-weight: 400;
   margin: 0 0 20px;
   color: #100F0F;
