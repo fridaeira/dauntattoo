@@ -6,15 +6,19 @@ import Col from "react-bootstrap/Col";
 export default function Appstart() {
   return (
     <Container>
-      <h1 style={{ marginTop: "30px", marginBottom: "30px" }}>
+      <h1
+        style={{ marginTop: "40px", marginBottom: "40px", textAlign: "center" }}
+      >
         VÄLKOMMEN TILL DAUN TATTOO
       </h1>
       <Row>
         <Col>
-          <img src="philip1.jpg" alt="Bild på Philip Daun" />
+          <img
+            src="philip1.jpg"
+            alt="Bild på Philip Daun"
+            style={{ borderRadius: "20px" }}
+          />
         </Col>
-      </Row>
-      <Row>
         <Col>
           <p>
             Hej och välkomen till Daun Tattoo! Mitt namn är Philip Daun och det
@@ -25,25 +29,29 @@ export default function Appstart() {
             tatueringsbranschen föll jag direkt för den typen av kreativitet och
             konst. Sedan dess har jag arbetat hårt för att nå dit jag är idag
             och jag kan stolt välkomna er till min egen studio på Norra
-            Storgatan i Tranås.<br></br>I min studio vill jag att alla ska känna
-            sig välkomna och trygga. Att tatuera sig är en stor grej och därför
-            är det viktigt att du som kund ska känna dig trygg med mig som
-            tatuerare och i min studio. Därför är studion inredd på ett
-            avslappnat och trevligt sätt, det utlovas alltid godis för snabb
-            energipåfyllning och om du blir sugen på kaffe finns det att tillgå
-            i köket. Om du behöver en paus under tiden vi tatuerar vill jag att
-            du ska känna dig trygg i att meddela mig det, att tatuera sig gör
-            ont och ibland behöver man en paus!
+            Storgatan i Tranås.
+          </p>
+          <p>
+            I min studio vill jag att alla ska känna sig välkomna och trygga.
+            Att tatuera sig är en stor grej och därför är det viktigt att du som
+            kund ska känna dig trygg med mig som tatuerare och i min studio.
+            Därför är studion inredd på ett avslappnat och trevligt sätt, det
+            utlovas alltid godis för snabb energipåfyllning och om du blir sugen
+            på kaffe finns det att tillgå i köket. Om du behöver en paus under
+            tiden vi tatuerar vill jag att du ska känna dig trygg i att meddela
+            mig det, att tatuera sig gör ont och ibland behöver man en paus!
           </p>
         </Col>
       </Row>
+
       <h2
         className="font-link2"
         style={{
           color: "#B70A16",
           textAlign: "center",
           fontSize: "40px",
-          marginTop: "30px",
+          marginTop: "40px",
+          marginBottom: "40px",
         }}
       >
         "DON´T BE SAD GO GET A TATTOO"
