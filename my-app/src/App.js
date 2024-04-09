@@ -16,12 +16,11 @@ export default function App() {
         style={{ maxHeight: "calc(100vh - 50px)", overflowY: "auto" }}
       >
         <Appheader />
+      </header>
+      <main>
         <Apphero />
         <Appstart />
         <Appfooter />
-      </header>
-      <main>
-        <p>hej</p>
       </main>
     </div>
   );

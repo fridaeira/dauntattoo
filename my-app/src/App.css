@@ -21,11 +21,6 @@ html {
 }
 
 
-* {
-  max-height: 1000000px;
-  margin: 0;
-  padding: 0;
-}
 
 body {
   color: #100F0F;
@@ -151,6 +146,16 @@ text-align: center;
   -webkit-transition: all 0.3s linear;
   opacity: 0;
 }
+
+#header .navbar-collapse .navbar-nav {
+  float: none;
+}
+
+#header .navbar-collapse .nav-item {
+  float: none;
+  display: block;
+  padding: 7px 0;
+}
 .hero-image {
   background-image: url("/public/philip.jpg");
   background-color: #cccccc;
@@ -170,19 +175,7 @@ text-align: center;
 
 
 
-  #header {
-    padding: 10px 0;
-  }
 
-  #header .navbar-collapse .navbar-nav {
-    float: none;
-  }
-
-  #header .navbar-collapse .nav-item {
-    float: none;
-    display: block;
-    padding: 7px 0;
-  }
 
   
 
