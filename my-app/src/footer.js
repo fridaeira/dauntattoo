@@ -2,6 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { SocialIcon } from "react-social-icons";
 
 export default function Appfooter() {
   return (
@@ -11,6 +12,7 @@ export default function Appfooter() {
         backgroundColor: "#232222",
         color: "#F6F4E8",
         padding: "20px",
+        textAlign: "center",
       }}
     >
       <Row>
@@ -25,15 +27,28 @@ export default function Appfooter() {
         </Col>
         <Col>
           <h1>Göteborg</h1>
-          <p>adress</p>
+          <p>Erik Dahlbergsgatan 18</p>
+          <p>Göteborg, 411 26</p>
         </Col>
         <Col>
           <h1>Tranås</h1>
           <p>Norra Storgatan 71</p>
           <p>Tranås, 57334</p>
-          <p>Sverige</p>
+        </Col>
+        <Col>
+          <h1>Sociala medier</h1>
+          <SocialIcon
+            url="https://www.tiktok.com/@dauntattoo"
+            bgColor="#B70A16"
+            style={{ marginRight: "30px" }}
+          />
+          <SocialIcon
+            url="https://www.instagram.com/dauntattoo/"
+            bgColor="#B70A16"
+          />
         </Col>
       </Row>
+      <p>@ 2024 Daun tattoo</p>
     </Container>
   );
 }
