@@ -4,7 +4,7 @@ export default function Apphero() {
   return (
     <div className="hero-image">
       <div>
-        <button className="button">Boka</button>
+        <button className="button">BOKA</button>
       </div>
     </div>
   );

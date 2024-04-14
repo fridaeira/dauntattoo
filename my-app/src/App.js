@@ -4,8 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Appheader from "./components/header";
 import Appstart from "./start";
 import Apphero from "./components/hero";
-import Appgalleri from "./galleri";
 
+import Appfooter from "./footer";
 document.body.style.backgroundColor = "#f6f4e8";
 
 export default function App() {
@@ -24,7 +24,8 @@ export default function App() {
       <main>
         <Apphero />
         <Appstart />
-        <Appgalleri />
+
+        <Appfooter />
       </main>
     </div>
   );
